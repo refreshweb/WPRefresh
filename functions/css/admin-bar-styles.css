@@ -1,0 +1,30 @@
+/* ----------------------------------------------------------------------------
+  Admin Bar
+---------------------------------------------------------------------------- */
+#wp-admin-bar-wp-logo > .ab-item .ab-icon, #wpadminbar #wp-admin-bar-new-content + .ab-item .ab-icon { background:none;  }
+#wpadminbar #wp-admin-bar-new-content > .ab-item .ab-icon { background-image: url(../images/admin-bar-sprite.png); }
+#wpadminbar .quicklinks #wp-admin-bar-wp-logo > a { padding:0; }
+#wpadminbar .quicklinks #wp-admin-bar-wp-logo a #wp-admin-bar-impact a { padding:0 12px; }
+#wp-admin-bar-wp-logo > a.ab-item:before { font-size:16px; position:relative; left:-10px; content: "\f01e"; font-style:normal; font-family: 'FontAwesome'; color:white;}
+#wp-admin-bar-wp-logo .ab-item:hover:before,
+#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item:before { color:#ce7102; }
+#wpadminbar { box-shadow:0 0 5px rgba(0, 0, 0, 0.4); background: #ce7102; background: -moz-linear-gradient(top, #ce7102 0%, #b75e00 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ce7102), color-stop(100%, #b75e00)); background: -webkit-linear-gradient(top, #ce7102 0%, #b75e00 100%); background: -o-linear-gradient(top, #ce7102 0%, #b75e00 100%); background: -ms-linear-gradient(top, #ce7102 0%, #b75e00 100%); background: linear-gradient(to bottom, #ce7102 0%, #b75e00 100%); }
+#wpadminbar .quicklinks > ul > li > a, #wpadminbar .quicklinks > ul > li > .ab-empty-item { border-right: 1px solid #b64b01; border-left:1px solid #dc9306; }
+#wpadminbar .quicklinks > ul > li { border-right: none; }
+#wpadminbar * { color: #fff; font: 13px/28px sans-serif; letter-spacing: normal; position: static; text-shadow: none; text-transform: none; width: auto; }
+#wpadminbar ul li#wp-admin-bar-my-account { background-color: #ce7102 !important; border-right: 1px solid #dc9306; border-left:1px solid #b64b01; }
+#wpadminbar ul li#wp-admin-bar-my-account a:hover { background-color:white !important; color:#ce7102 !important; }
+#wpadminbar ul li#wp-admin-bar-my-account a { border-bottom:none; text-shadow:none !important; color:#363636 !important; height:29px; !important;
+}
+#wpadminbar ul li#wp-admin-bar-my-account > a { border-right: 1px solid #b64b01; border-left:1px solid #dc9306; border-bottom: none; color: #fff !important; height: 		28px; text-shadow: none !important; }
+#wpadminbar ul li#wp-admin-bar-my-account.hover a.ab-item { color: #ce7102 !important; }
+#wpadminbar #wp-admin-bar-user-info { margin-bottom:0; }
+#wp-admin-bar-user-info .avatar, #wp-admin-bar-user-info .avatar:hover { border: 1px solid #999999; }
+#wpadminbar li#wp-admin-bar-my-account.menupop .ab-submenu li a { line-height:14px !important; }
+#wpadminbar li a:hover { border-right: 1px solid #fff !important; border-left:1px solid #fff !important; background:white !important; color:black !important; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; }
+#wpadminbar .ab-submenu li a { line-height:26px !important; }
+#wpadminbar .ab-submenu li a:hover { border:none !important; background:#f1f1f1 !important; color: #ce7102 !important; }
+#wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a { color: #333; }
+
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input { margin-left:0 !important; }
+#wp-admin-bar-top-secondary li:hover { background:none !important; }
