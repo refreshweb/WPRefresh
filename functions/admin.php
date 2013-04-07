@@ -1,8 +1,4 @@
 <?php
-/* Custom Admin Login Logo */
-function my_custom_login_logo() { 
-     echo '<style type="text/css"> h1 a { background-image:url('.get_bloginfo('template_directory').'/functions/images/custom-login-logo.jpg) !important; } </style>';}   
-add_action('login_head', 'my_custom_login_logo');
 // Remove Welcome to Wordpress
 function hide_welcome_screen() {
     $user_id = get_current_user_id();
